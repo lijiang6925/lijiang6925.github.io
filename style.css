@@ -20,6 +20,10 @@ h2 {
     line-height: 54px;
 }
 
+h3 {
+    font-size: 28px;
+}
+
 h4 {
     font-size: 20px;
 }
@@ -138,7 +142,6 @@ body {
 
 #info h2{
     text-align: center;
-    
 }
 
 #info .info-box img{
@@ -158,5 +161,43 @@ body {
     padding: 0px 0 14px;
 }
 
+#product1 h2{
+    text-align: center;
+    padding: 20px 0 20px;
+}
 
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }
